@@ -18,3 +18,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#header{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  height: 15rem;
+  background-image: url('https://source.unsplash.com/random');
+  align-items: center;
+  justify-content: center;
+}
