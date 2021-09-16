@@ -1,7 +1,7 @@
 import React from 'react'
 import CryptoRows from './CryptoRows'
 
-const titles = [' ', 'Currency','Current Price' , 'Change rate', '24h Volume']
+const titles = [' ', 'Currency','Current Price' , 'Change rate']
 
 export const CryptoTable = ({Crypto, Search}) => {
 

@@ -23,10 +23,10 @@ function App() {
     
     <div className="container">
       <div className='header container'>
-          <h1 className='text-center m-4'id='header' >Coin Market</h1>
+          <h1 className='text-center m-4 align-middle' >Coin Market</h1>
       </div>
       <div className='row'>
-        <input type="text" placeholder='Search a currency' className='form-control bg-dark text-light border-0 mt-4' onChange={e => setSearch(e.target.value)} />
+        <input type="text" placeholder='Search a currency' className='form-control bg-dark text-light border-0 mt-4 px-3' onChange={e => setSearch(e.target.value)} />
         <CryptoTable Crypto={Crypto} Search={Search} />
       </div>
     </div>
